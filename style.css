@@ -1,0 +1,136 @@
+body {
+    background-color: #EAEDED;
+}
+
+header {
+    background-color: #0F1111;
+    padding: 2px;
+    margin: -8px;
+    width: 100%;
+    position: static;
+    top: 0;
+    left: 0;
+}
+
+.flexbox-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* .flexbox-item {
+    width: 200 px;
+    margin: 10px;
+    border: 1px solid;
+    background-color: #ffffff;
+} */
+
+.flexbox-item1 {
+    width: 118px;
+    margin: 0px;
+    padding: 2px 2px 0px 8px;
+    color: #007185;
+    background-color: #007185;
+    align-content: center;
+    justify-self: left;
+}
+
+.flexbox-item2 {
+    width: 93px;
+    margin: 1px;
+    padding: 1px 18px 0px 6px;
+    border: 1px solid;
+    color: #007185;
+    background-color: #007185;
+    align-content: center;
+}
+
+.flexbox-item3 {
+    width: 683px;
+    margin: 1px;
+    padding: 8px 4px 10px 3px;
+    border: 1px solid;
+    color: #007185;
+    background-color: #007185;
+}
+
+.flexbox-item4 {
+    width: 180px;
+    margin: 1px;
+    padding: 1px 8px 0px 6px;
+    border: 1px solid;
+    color: #007185;
+    background-color: #007185;
+}
+
+.flexbox-item5 {
+    width: 180px;
+    margin: 1px;
+    padding: 1px 8px 0px 6px;
+    border: 1px solid;
+    color: #007185;
+    background-color: #007185;
+}
+
+.flexbox-item6 {
+    width: 180px;
+    margin: 1px;
+    padding: 1px 8px 0px 6px;
+    border: 1px solid;
+    color: #007185;
+    background-color: #007185;
+}
+
+.flexbox-item7 {
+    width: 180px;
+    margin: 1px;
+    padding: 1px 8px 0px 6px;
+    border: 1px solid;
+    color: #007185;
+    background-color: #007185;
+}
+
+#mainlogo {
+    width: 108px;
+}
+
+.banner {
+    position: relative;
+    top: 8px;
+}
+
+.banner img {
+    max-width: 100%;
+}
+
+.flexbox-item2 p {
+    color: white;
+    position: absolute;
+    top: 1px;
+    left: 152px;
+    text-align: left;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    /* font-style: bold; */
+}
+
+.flexbox-item2 p span {
+    color: #CCCCCC;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#locationPinLogo {
+    width: 18px;
+    padding: 3px 0px 0px 1px;
+    position: relative;
+    top: 3px;
+    left: 2px;
+}
+
+#mainSearchbar {
+    width: 566px;
+    height: 38px;
+}
