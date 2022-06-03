@@ -6,8 +6,8 @@ header {
     background-color: #0F1111;
     padding: 2px;
     margin: -8px;
-    width: 100%;
     position: static;
+    width: 100%;
     top: 0;
     left: 0;
 }
@@ -30,78 +30,24 @@ header {
     width: 118px;
     margin: 0px;
     padding: 2px 2px 0px 8px;
-    color: #007185;
-    background-color: #007185;
+    color: #0F1111;
+    background-color: #0F1111;
     align-content: center;
     justify-self: left;
-}
-
-.flexbox-item2 {
-    width: 93px;
-    margin: 1px;
-    padding: 1px 18px 0px 6px;
-    border: 1px solid;
-    color: #007185;
-    background-color: #007185;
-    align-content: center;
-}
-
-.flexbox-item3 {
-    width: 683px;
-    margin: 1px;
-    padding: 8px 4px 10px 3px;
-    border: 1px solid;
-    color: #007185;
-    background-color: #007185;
-}
-
-.flexbox-item4 {
-    width: 180px;
-    margin: 1px;
-    padding: 1px 8px 0px 6px;
-    border: 1px solid;
-    color: #007185;
-    background-color: #007185;
-}
-
-.flexbox-item5 {
-    width: 180px;
-    margin: 1px;
-    padding: 1px 8px 0px 6px;
-    border: 1px solid;
-    color: #007185;
-    background-color: #007185;
-}
-
-.flexbox-item6 {
-    width: 180px;
-    margin: 1px;
-    padding: 1px 8px 0px 6px;
-    border: 1px solid;
-    color: #007185;
-    background-color: #007185;
-}
-
-.flexbox-item7 {
-    width: 180px;
-    margin: 1px;
-    padding: 1px 8px 0px 6px;
-    border: 1px solid;
-    color: #007185;
-    background-color: #007185;
 }
 
 #mainlogo {
     width: 108px;
 }
 
-.banner {
-    position: relative;
-    top: 8px;
-}
-
-.banner img {
-    max-width: 100%;
+.flexbox-item2 {
+    width: 89px;
+    margin: 1px;
+    padding: 1px 23px 0px 6px;
+    border: 1px solid;
+    color: #0F1111;
+    background-color: #0F1111;
+    align-content: center;
 }
 
 .flexbox-item2 p {
@@ -130,7 +76,171 @@ header {
     left: 2px;
 }
 
+.flexbox-item3 {
+    width: 683px;
+    margin: 1px;
+    padding: 6px 50px 7px 50px;
+    border: 1px solid;
+    color: #0F1111;
+    background-color: #0F1111;
+}
+
+.departments-dropbtn{
+    position: absolute;
+    top: 9px;
+    left: 228px;
+    background-color: #F3F3F3;
+    width: 52px;
+    height: 44px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+
+}
+
+.departments-dropbtn:hover, .departments-dropbtn:focus{
+    background-color: lightgray;
+}
+
+.depDropdownContent {
+    position: relative;
+    display:inline-block;
+}
+
+.depDropdownContent {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.depDropdownContent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.depDropdownContent a:hover {
+    background-color: #F3F3F3;
+}
+
+
 #mainSearchbar {
     width: 566px;
-    height: 38px;
+    height: 42px;
 }
+
+#mainSearchbarButton {
+    position: absolute;
+    left: auto;
+    top: 11px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.flexbox-item4 {
+    width: 55px;
+    margin: 1px;
+    padding: 8px 6px 0px 12px;
+    border: 1px solid;
+    color: #0F1111;
+    background-color: #0F1111;
+}
+
+#locationLogoImg {
+    width: 23px;
+    height: 17px;
+}
+
+.flexbox-item5 {
+    width: 132px;
+    margin: 1px;
+    padding: 1px 8px 0px 6px;
+    border: 1px solid;
+    color: #0F1111;
+    background-color: #0F1111;
+}
+
+.flexbox-item5 p {
+    color: white;
+    position: absolute;
+    top: 0px;
+    left: 967px;
+    text-align: left;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    /* font-style: bold; */
+}
+
+.flexbox-item5 p span {
+
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.flexbox-item6 {
+    width: 77px;
+    margin: 1px;
+    padding: 1px 8px 0px 6px;
+    border: 1px solid;
+    color: #0F1111;
+    background-color: #0F1111;
+}
+
+.flexbox-item6 p {
+    color: white;
+    position: absolute;
+    top: 0px;
+    left: 1100px;
+    text-align: left;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    /* font-style: bold; */
+}
+
+.flexbox-item6 p span {
+
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.flexbox-item7 {
+    width: 86px;
+    margin: 1px;
+    padding: 1px 10px 0px 3px;
+    border: 1px solid;
+    color: #0F1111;
+    background-color: #0F1111;
+}
+
+.flexbox-item7 p {
+    color: white;
+    position: absolute;
+    top: 16px;
+    left: 1225px;
+    text-align: left;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    /* font-style: bold; */
+}
+
+#shoppingCartLogo {
+    width: 40px;
+}
+
+
+
+.banner {
+    position: relative;
+    top: 8px;
+}
+
+.banner img {
+    max-width: 100%;
+}
+
