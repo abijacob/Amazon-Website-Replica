@@ -16,15 +16,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
-
-
-/* .flexbox-item {
-    width: 200 px;
-    margin: 10px;
-    border: 1px solid;
-    background-color: #ffffff;
-} */
 
 .flexbox-item1 {
     width: 118px;
@@ -236,12 +229,47 @@ header {
 
 
 .banner {
-    position: relative;
-    top: 8px;
+    position: absolute;
+    top: 114px;
+    left: 0;
 }
 
 .banner img {
     max-width: 100%;
 }
 
+nav {
+    background-color: #212F3D;
+    position: absolute;
+    width: 100%;
+    top: 63px;
+    left: 0;
+}
 
+nav ul{
+    white-space: nowrap;
+}
+
+nav li {
+    display: inline-block;
+    font-family: "Amazon Ember";
+}
+
+nav li a {
+    text-decoration: none;
+    font-style: normal;
+    padding: 0px 8px 0px 8px;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.navSpecial {
+    position: absolute;
+    top: 16px;
+    right: 40px;
+}
+
+nav li a:hover {
+    border: 1px solid white;
+    overflow: hidden;
+}
