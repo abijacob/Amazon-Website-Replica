@@ -414,3 +414,26 @@ a {
     color: #007185;
     text-decoration: none;
 }
+
+footer {
+    width: 100%;
+    position: absolute;
+    top: 820px;
+    z-index: 1;
+}
+
+footer a {
+    color: #FFFFFF;
+    background-color: #212F3D;
+    padding: 10px;
+    text-align: center;
+    font-family: "Amazon Ember", Arial , sans-serif;
+}
+
+footer p {
+    color: #FFFFFF;
+    background-color: #212F3D;
+    padding: 10px;
+    text-align: center;
+    font-family: "Amazon Ember", Arial , sans-serif;
+}
