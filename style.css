@@ -1,12 +1,11 @@
 body {
     background-color: #EAEDED;
+    margin: 0;
+    display: flex;
 }
 
 header {
     background-color: #0F1111;
-    padding: 2px;
-    margin: -8px;
-    position: static;
     width: 100%;
     top: 0;
     left: 0;
@@ -52,7 +51,6 @@ header {
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    /* font-style: bold; */
 }
 
 .flexbox-item2 p span {
@@ -70,23 +68,21 @@ header {
 }
 
 .flexbox-item3 {
+    display: flex;
     width: 683px;
     margin: 1px;
-    padding: 6px 50px 7px 50px;
+    padding: 6px 50px 7px 6px;
     border: 1px solid;
     color: #0F1111;
     background-color: #0F1111;
 }
 
 .departments-dropbtn{
-    position: absolute;
-    top: 9px;
-    left: 228px;
     background-color: #F3F3F3;
     width: 52px;
-    height: 44px;
-    border-top-left-radius: 6px;
-    border-bottom-left-radius: 6px;
+    height: 43px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
 
 }
 
@@ -128,7 +124,7 @@ header {
 #mainSearchbarButton {
     position: absolute;
     left: auto;
-    top: 11px;
+    top: 9px;
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
 }
@@ -230,7 +226,7 @@ header {
 
 .banner {
     position: absolute;
-    top: 114px;
+    top: 111px;
     left: 0;
 }
 
@@ -242,7 +238,7 @@ nav {
     background-color: #212F3D;
     position: absolute;
     width: 100%;
-    top: 63px;
+    top: 60px;
     left: 0;
 }
 
